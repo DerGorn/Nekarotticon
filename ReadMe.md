@@ -1,1 +1,1 @@
-Ein Blog in Entrwicklung, auf dem ich meine Kocherfolge verewigen möchte.
+Ein Blog in Entwicklung auf dem ich meine Kocherfolge verewigen möchte.
