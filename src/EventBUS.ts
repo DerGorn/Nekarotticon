@@ -5,7 +5,7 @@
 /**
  * List of all possible Events. Basic stepping stone for the type safety
  */
-const eventTypes = ["loop", "togglePlay", "requestTogglePlay"] as const;
+const eventTypes = [] as const;
 /**
  * Converts the eventTypes JavaScript array into a TypeScript type.
  */
@@ -17,9 +17,6 @@ type Events = (typeof eventTypes)[number];
  * with registerEventListener, hence a generic function type is ok here.
  */
 const registeredFunctions: { [key in Events]: ((e: any) => void)[] } = {
-  loop: [],
-  togglePlay: [],
-  requestTogglePlay: [],
 };
 
 /**
@@ -27,9 +24,6 @@ const registeredFunctions: { [key in Events]: ((e: any) => void)[] } = {
  * accessed with a generic Type in registerEventListener and fireEvent
  */
 type EventDefinitions = {
-  loop: { delta: number };
-  togglePlay: { play: boolean };
-  requestTogglePlay: { play: boolean };
 };
 
 /**
