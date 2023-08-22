@@ -2,10 +2,12 @@
 //  * With some Typescript shenanigans the Events are type safe and provide
 //  * Autocomplete in VSCode
 
+import { Fancy, Fancyness, Recipe } from "./constants.js";
+
 /**
  * List of all possible Events. Basic stepping stone for the type safety
  */
-const eventTypes = [] as const;
+const eventTypes = ["loadRecipe", "buildRecipe"] as const;
 /**
  * Converts the eventTypes JavaScript array into a TypeScript type.
  */
@@ -17,6 +19,8 @@ type Events = (typeof eventTypes)[number];
  * with registerEventListener, hence a generic function type is ok here.
  */
 const registeredFunctions: { [key in Events]: ((e: any) => void)[] } = {
+  loadRecipe: [],
+  buildRecipe: [],
 };
 
 /**
@@ -24,6 +28,8 @@ const registeredFunctions: { [key in Events]: ((e: any) => void)[] } = {
  * accessed with a generic Type in registerEventListener and fireEvent
  */
 type EventDefinitions = {
+  loadRecipe: { name: string; fancy?: Fancyness };
+  buildRecipe: {recipe: Recipe, fancyness: Fancy};
 };
 
 /**
