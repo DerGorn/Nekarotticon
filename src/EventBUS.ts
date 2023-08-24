@@ -28,8 +28,8 @@ const registeredFunctions: { [key in Events]: ((e: any) => void)[] } = {
  * accessed with a generic Type in registerEventListener and fireEvent
  */
 type EventDefinitions = {
-  loadRecipe: { name: string; fancy?: Fancyness };
-  buildRecipe: {recipe: Recipe, fancyness: Fancy};
+  loadRecipe: { name: string; fancyness?: Fancyness };
+  buildRecipe: {recipe: Recipe, fancy: Fancy};
 };
 
 /**

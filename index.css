@@ -2,5 +2,72 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  user-select: none;
+}
+
+body {
+  --header-height: 50vh;
+}
+
+.site {
+}
+
+.logo {
+  position: absolute;
+  width: 5rem;
+}
+
+.logo:hover {
+  background-color: rgba(200, 0, 0, 0.3);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.recipeHeader {
+  display: flex;
+  flex-direction: column;
+  height: var(--header-height);
+  justify-content: space-between;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: calc(100vw var(--header-height) * 0.8);
+  padding-top: 0.4rem;
+  text-shadow: 1px 1px grey, -1px -1px rgba(255, 255, 255, 0.289);
+}
+
+.text {
+  font-size: 1.2rem;
+}
+
+.titleHolder {
+  margin-left: 5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.appendix {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.recipeMetaData {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+}
+
+.difficulty {
+}
+
+.iconSubText {
 }
