@@ -1,14 +1,21 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   overflow: hidden;
-}
+} */
 
 body {
+  margin: 0;
+  padding: 0;
   --header-height: 50vh;
+  /* background-image: radial-gradient(transparent, black);
+  background-repeat: no-repeat; */
 }
 
 .site {
+  width: 95vw;
+  margin-left: 2.5vw;
+  padding-bottom: 5vh;
 }
 
 .logo {
@@ -29,13 +36,19 @@ body {
   justify-content: space-between;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: calc(100vw var(--header-height) * 0.8);
+  background-size: 100vw calc(var(--header-height) * 0.83);
   padding-top: 0.4rem;
-  text-shadow: 1px 1px grey, -1px -1px rgba(255, 255, 255, 0.289);
+  border-bottom: 2px solid black;
 }
 
 .text {
   font-size: 1.2rem;
+  text-shadow: 1px 1px grey, -1px -1px rgba(255, 255, 255, 0.289);
+}
+
+.big {
+  font-size: 1.7rem;
+  font-weight: bold;
 }
 
 .titleHolder {
@@ -61,13 +74,38 @@ body {
   padding-right: 1rem;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
-.icon {
+.difficultyManager {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.difficulty {
+.difficultyHolder {
+  display: flex;
+  gap: 0rem;
+  align-items: center;
 }
 
-.iconSubText {
+.difficultyIcon.active {
+  background-image: radial-gradient(black, transparent);
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+}
+
+.difficultyIcon.inactive {
+  opacity: 0.7;
+}
+
+.difficultyIconImage {
+  margin-top: 0.3rem;
+  height: 2rem;
+}
+
+.recipeDescription {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
 }
