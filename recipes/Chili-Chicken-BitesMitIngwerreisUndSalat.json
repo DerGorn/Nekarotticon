@@ -1,0 +1,572 @@
+{
+  "image": "",
+  "MetaData": {
+    "title": "Chili-Chicken-Bites mit Ingwerreis und Salat",
+    "date": "21.08.2023",
+    "fancyLevels": ["fast", "extra"],
+    "FancyfullTimeNeeded": {
+      "fast": "30 min",
+      "extra": "90 min"
+    },
+    "FancyfullDifficulty": {
+      "fast": "medium",
+      "extra": "hard"
+    }
+  },
+  "FancyfullIngredients": {
+    "fast": [
+      {
+        "category": "",
+        "ingredient": "Ingwer",
+        "amount": "",
+        "modifier": "Daumen großes Stück"
+      },
+      {
+        "category": "",
+        "ingredient": "Basmatireis",
+        "amount": "150 g",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Reisessig",
+        "amount": "1 EL",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Eisbergsalat",
+        "amount": "",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Zitrone",
+        "amount": "1",
+        "modifier": "Bio"
+      },
+      {
+        "category": "",
+        "ingredient": "Öl",
+        "amount": "3 EL",
+        "modifier": "neutral, z.B. Raps, Sonnenblumen\n+ mehr zum braten"
+      },
+      {
+        "category": "",
+        "ingredient": "Hähnchen Geschnetzeltes",
+        "amount": "400 g",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Mehl",
+        "amount": "~100 g",
+        "modifier": "zum panieren"
+      },
+      {
+        "category": "",
+        "ingredient": "Eier",
+        "amount": "3",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Paniermehl",
+        "amount": "~200 g",
+        "modifier": "zum panieren"
+      },
+      {
+        "category": "",
+        "ingredient": "Chilipulver",
+        "amount": "1 TL",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Paprikapulver",
+        "amount": "1 EL",
+        "modifier": "Edelsüß"
+      },
+      {
+        "category": "",
+        "ingredient": "Salz",
+        "amount": "",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Pfeffer",
+        "amount": "",
+        "modifier": ""
+      }
+    ],
+    "extra": [
+      {
+        "category": "",
+        "ingredient": "Ingwer",
+        "amount": "",
+        "modifier": "Daumen großes Stück"
+      },
+      {
+        "category": "",
+        "ingredient": "Basmatireis",
+        "amount": "150 g",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Reisessig",
+        "amount": "1 EL",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Eisbergsalat",
+        "amount": "",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Zitrone",
+        "amount": "1",
+        "modifier": "Bio"
+      },
+      {
+        "category": "",
+        "ingredient": "Öl",
+        "amount": "3 EL",
+        "modifier": "neutral, z.B. Raps, Sonnenblumen"
+      },
+      {
+        "category": "",
+        "ingredient": "Tomate",
+        "amount": "1",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Jalapenoscheiben",
+        "amount": "4",
+        "modifier": "eingelegt"
+      },
+      {
+        "category": "",
+        "ingredient": "Essiggurke",
+        "amount": "1",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Senf",
+        "amount": "2 TL",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Worcester Sauce",
+        "amount": "1/2 TL",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Hähnchen Oberkeulen",
+        "amount": "500 g",
+        "modifier": "mit Haut"
+      },
+      {
+        "category": "",
+        "ingredient": "Mehl",
+        "amount": "~100 g",
+        "modifier": "zum panieren"
+      },
+      {
+        "category": "",
+        "ingredient": "Eier",
+        "amount": "3",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Paniermehl",
+        "amount": "~200 g",
+        "modifier": "zum panieren"
+      },
+      {
+        "category": "",
+        "ingredient": "Chilipulver",
+        "amount": "1 TL",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Paprikapulver",
+        "amount": "1 EL",
+        "modifier": "Edelsüß"
+      },
+      {
+        "category": "",
+        "ingredient": "Salz",
+        "amount": "",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Pfeffer",
+        "amount": "",
+        "modifier": ""
+      }
+    ]
+  },
+  "FancyfullSteps": {
+    "fast": [
+      {
+        "title": "Ingwerreis",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Ingwer",
+            "amount": "",
+            "modifier": "Daumen großes Stück"
+          },
+          {
+            "category": "",
+            "ingredient": "Basmatireis",
+            "amount": "150 g",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Wasser",
+            "amount": "",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Reisessig",
+            "amount": "1 EL",
+            "modifier": ""
+          }
+        ],
+        "description": "Schäle den Ingwer und Schneide ihn in ca. 2mm große Würfel.\nTipp: Die Schale kann einfach mit der Kante eines Löffel abgerieben werden.\n\nGebe den Ingwer zusammen mit dem Reis in einen kleinen Topf. Platziere die Spitze deines Zeigefinger auf dem Reis und fülle Wasser in den Topf, bis das erste Gelenk erreicht ist. Koche den Reis für 6 Minuten mit einem Deckel. Anschließend stelle den Topf abgedeckt für 15-20 Minuten an die Seite.\n\nAbschließend verteile den Reisessig über den Reis und rühre ihn gut durch, bis der Essig gleichmäßig verteilt und der Reis gelockert ist."
+      },
+      {
+        "title": "Salat",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Eisbergsalat",
+            "amount": "",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Zitrone",
+            "amount": "1",
+            "modifier": "Bio"
+          },
+          {
+            "category": "",
+            "ingredient": "Öl",
+            "amount": "3 EL",
+            "modifier": "neutral, z.B. Raps, Sonnenblumen"
+          },
+          {
+            "category": "",
+            "ingredient": "Paprikapulver",
+            "amount": "1 TL",
+            "modifier": "Edelsüß"
+          },
+          {
+            "category": "",
+            "ingredient": "Salz",
+            "amount": "1 TL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Pfeffer",
+            "amount": "1 TL",
+            "modifier": ""
+          }
+        ],
+        "description": "Reibe ein bisschen (ca. 1 TL) Zitronenschale ab und stelle sie für später zur Seite.\nTipp, falls keine feine Reibe vorhanden ist: Schneide die Schale dünn mit einem Messer oder Sparschäler ab und hacke sie sehr fein.\n\nSchneide den Eisbergsalat in dünne Streifen.\n\nPresse die Zitrone aus. Gib den Zitronensaft mit dem Öl, Salz, Pfeffer und Paprikapulver zusammen. Verrühre alles bis ein schönes Dressing entsteht. Gib das Dressing über den Salat und stelle ihn zur Seite."
+      },
+      {
+        "title": "Chili-Chicken-Bites",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Öl",
+            "amount": "",
+            "modifier": "zum braten"
+          },
+          {
+            "category": "",
+            "ingredient": "Hähnchen Geschnetzeltes",
+            "amount": "400 g",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Mehl",
+            "amount": "~100 g",
+            "modifier": "zum panieren"
+          },
+          {
+            "category": "",
+            "ingredient": "Eier",
+            "amount": "3",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Paniermehl",
+            "amount": "~200 g",
+            "modifier": "zum panieren"
+          },
+          {
+            "category": "",
+            "ingredient": "Paprikapulver",
+            "amount": "2 TL",
+            "modifier": "Edelsüß"
+          },
+          {
+            "category": "",
+            "ingredient": "Chilipulver",
+            "amount": "1 TL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Salz",
+            "amount": "2 TL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Zitronenabrieb",
+            "amount": "1 TL",
+            "modifier": ""
+          }
+        ],
+        "description": "Bereite eine Panierstraße vor. Gib das Mehl in einen tiefen Teller mit 1 TL Salz. Gib die Eier in einen tiefen Teller und schlage sie bis es homogen ist. Gib das Paniermehl mit dem Parpikapulver in einen tiefen Teller.\n\nPaniere nun das Hähnchen. Wende es zunächst im Mehl, bis es komlett bedeckt ist. Wende es anschließend im Mehl, bis es komplett bedeckt ist. Wende es abschließend im Paniermehl, bis es komplett bedeckt ist.\nTipp: Benutze eine Hand für die nassen und die andere für die trockenen Schritte. Bsp: Nimm das nackige Hähnchen mit der linken Hand und lege es in den Mehlteller. Streue mit der rechten Hand Mehl über das Hänchen und wende es dann, bis es bedeckt ist. Immer noch mit der rechten Hand, lege das Hänchen in den Eierteller ohne das Ei zu berühren. Wende es dort mit der linken Hand. Nimm es mit der linken Hand und lege es in den Paniermehlteller. Verfahre hier genau wie beim Mehl.\n\nFülle ca. 1cm hoch Öl in eine Pfanne. Brate das Hähnchen auf mittelhoher Hitze für 2-4 Minuten auf jeder Seite, bis es goldbraun ist.\n\nFür das Chiliöl gib die Zitronenschale von vorher, das Chilipulver, 1 TL Paprikapulver und 1 TL Salz in eine Schüssel. Nach dem das ganze Hähnchen gebrachten ist, gib 3 EL von dem heißen Öl in die Schüssel und rühre es vorsichtig. ACHTUNG: Die Schüssel wird heiß!"
+      },
+      {
+        "title": "Anrichten",
+        "ingredients": [],
+        "description": "Zum Anrichten nimm einen tiefen Teller oder eine große Schüssel. Gib Reis in die Schüssel, dann Salat. Schichte darauf das Hähnchen und verteile das Öl gleichmäßig darüber."
+      }
+    ],
+    "extra": [
+      {
+        "title": "Ingwerreis",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Ingwer",
+            "amount": "",
+            "modifier": "Daumen großes Stück"
+          },
+          {
+            "category": "",
+            "ingredient": "Basmatireis",
+            "amount": "150 g",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Wasser",
+            "amount": "",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Reisessig",
+            "amount": "1 EL",
+            "modifier": ""
+          }
+        ],
+        "description": "Schäle den Ingwer und Schneide ihn in ca. 2mm große Würfel.\nTipp: Die Schale kann einfach mit der Kante eines Löffel abgerieben werden.\n\nGebe den Ingwer zusammen mit dem Reis in einen kleinen Topf. Platziere die Spitze deines Zeigefinger auf dem Reis und fülle Wasser in den Topf, bis das erste Gelenk erreicht ist. Koche den Reis für 6 Minuten mit einem Deckel. Anschließend stelle den Topf abgedeckt für 15-20 Minuten an die Seite.\n\nAbschließend verteile den Reisessig über den Reis und rühre ihn gut durch, bis der Essig gleichmäßig verteilt und der Reis gelockert ist."
+      },
+      {
+        "title": "Salat",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Eisbergsalat",
+            "amount": "",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Zitrone",
+            "amount": "1",
+            "modifier": "Bio"
+          },
+          {
+            "category": "",
+            "ingredient": "Öl",
+            "amount": "3 EL",
+            "modifier": "neutral, z.B. Raps, Sonnenblumen"
+          },
+          {
+            "category": "",
+            "ingredient": "Paprikapulver",
+            "amount": "1 TL",
+            "modifier": "Edelsüß"
+          },
+          {
+            "category": "",
+            "ingredient": "Salz",
+            "amount": "1 TL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Pfeffer",
+            "amount": "1 TL",
+            "modifier": ""
+          }
+        ],
+        "description": "Reibe ein bisschen (ca. 1 TL) Zitronenschale ab und stelle sie für später zur Seite.\nTipp, falls keine feine Reibe vorhanden ist: Schneide die Schale dünn mit einem Messer oder Sparschäler ab und hacke sie sehr fein.\n\nSchneide den Eisbergsalat in dünne Streifen.\n\nPresse die Zitrone aus. Gib den Zitronensaft mit dem Öl, Salz, Pfeffer und Paprikapulver zusammen. Verrühre alles bis ein schönes Dressing entsteht. Gib das Dressing über den Salat und stelle ihn zur Seite."
+      },
+      {
+        "title": "Tomatenrelish",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Tomate",
+            "amount": "1",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Jalapenoscheiben",
+            "amount": "4",
+            "modifier": "eingelegt"
+          },
+          {
+            "category": "",
+            "ingredient": "Essiggurke",
+            "amount": "1",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Senf",
+            "amount": "2 TL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Worcester Sauce",
+            "amount": "1/2 TL",
+            "modifier": ""
+          }
+        ],
+        "description": "Schneide Tomaten, Jalapeno und Essiggurke in feine Würfel. Gib alles zusammen mit Senf und Worcester Sauce in eine Schüssel und vermische es, bis sich eine homogene Sauce ergibt."
+      },
+      {
+        "title": "Hähnchenvorbereitung",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Hähnchen Oberkeulen",
+            "amount": "500 g",
+            "modifier": "mit Haut"
+          },
+          {
+            "category": "",
+            "ingredient": "Salz",
+            "amount": "etwas",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Pfeffer",
+            "amount": "etwas",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Paprikapulver",
+            "amount": "etwas",
+            "modifier": "Edelsüß"
+          }
+        ],
+        "description": "Entferne vorsichtig die Haut und würze sie von beiden Seiten mit etwas Salz, Pfeffer und Paprikapulver. Lege die Haut für später zur Seite.\n\nEntferne alle Knochen, Sehnen und großen Fettansammlungen aus dem Fleisch. Schneide das Fleich in Mundgerechte Stücke."
+      },
+      {
+        "title": "Chili-Chicken-Bites",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Öl",
+            "amount": "",
+            "modifier": "zum braten"
+          },
+          {
+            "category": "",
+            "ingredient": "Hähnchen Oberkeulen",
+            "amount": "500 g",
+            "modifier": "klein geschnitten"
+          },
+          {
+            "category": "",
+            "ingredient": "Hähnchen Haut",
+            "amount": "",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Mehl",
+            "amount": "~100 g",
+            "modifier": "zum panieren"
+          },
+          {
+            "category": "",
+            "ingredient": "Eier",
+            "amount": "3",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Paniermehl",
+            "amount": "~200 g",
+            "modifier": "zum panieren"
+          },
+          {
+            "category": "",
+            "ingredient": "Paprikapulver",
+            "amount": "2 TL",
+            "modifier": "Edelsüß"
+          },
+          {
+            "category": "",
+            "ingredient": "Chilipulver",
+            "amount": "1 TL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Salz",
+            "amount": "2 TL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Zitronenabrieb",
+            "amount": "1 TL",
+            "modifier": ""
+          }
+        ],
+        "description": "Bereite eine Panierstraße vor. Gib das Mehl in einen tiefen Teller mit 1 TL Salz. Gib die Eier in einen tiefen Teller und schlage sie bis es homogen ist. Gib das Paniermehl mit dem Parpikapulver in einen tiefen Teller.\n\nPaniere nun das Hähnchen. Wende es zunächst im Mehl, bis es komlett bedeckt ist. Wende es anschließend im Mehl, bis es komplett bedeckt ist. Wende es abschließend im Paniermehl, bis es komplett bedeckt ist.\nTipp: Benutze eine Hand für die nassen und die andere für die trockenen Schritte. Bsp: Nimm das nackige Hähnchen mit der linken Hand und lege es in den Mehlteller. Streue mit der rechten Hand Mehl über das Hänchen und wende es dann, bis es bedeckt ist. Immer noch mit der rechten Hand, lege das Hänchen in den Eierteller ohne das Ei zu berühren. Wende es dort mit der linken Hand. Nimm es mit der linken Hand und lege es in den Paniermehlteller. Verfahre hier genau wie beim Mehl.\n\nFülle ca. 1cm hoch Öl in eine Pfanne. Brate zunächst die Hähnchenhaut bei mittlere Hitze, bis sie kross und goldbraun ist. Brate das Hähnchen auf mittelhoher Hitze für 2-4 Minuten auf jeder Seite, bis es goldbraun ist.\n\nFür das Chiliöl gib die Zitronenschale von vorher, das Chilipulver, 1 TL Paprikapulver und 1 TL Salz in eine Schüssel. Nach dem das ganze Hähnchen gebrachten ist, gib 3 EL von dem heißen Öl in die Schüssel und rühre es vorsichtig. ACHTUNG: Die Schüssel wird heiß!"
+      },
+      {
+        "title": "Anrichten",
+        "ingredients": [],
+        "description": "Zum Anrichten nimm einen tiefen Teller oder eine große Schüssel. Gib Reis in die Schüssel, dann Salat. Gib das Tomatenrelish darüber. Schichte darauf das Hähnchen und verteile das Öl gleichmäßig darüber. Streue die zerbröselte Hähnchenhaut oben drüber."
+      }
+    ]
+  }
+}

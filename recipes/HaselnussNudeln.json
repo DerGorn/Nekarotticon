@@ -1,0 +1,220 @@
+{
+  "image": "",
+  "MetaData": {
+    "title": "Haselnussnudeln mit Paprika",
+    "date": "23.08.2023",
+    "fancyLevels": ["fast"],
+    "FancyfullTimeNeeded": {
+      "fast": "30 min"
+    },
+    "FancyfullDifficulty": {
+      "fast": "medium"
+    }
+  },
+  "FancyfullIngredients": {
+    "fast": [
+      {
+        "category": "",
+        "ingredient": "Tagliatelle",
+        "amount": "250 g",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Haselnüsse",
+        "amount": "80 g",
+        "modifier": "gehackt"
+      },
+      {
+        "category": "",
+        "ingredient": "Paprika",
+        "amount": "2",
+        "modifier": "rot"
+      },
+      {
+        "category": "",
+        "ingredient": "Erbsen",
+        "amount": "1 Handvoll",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Zitronenabrieb",
+        "amount": "",
+        "modifier": "von 1/2 Zitrone"
+      },
+      {
+        "category": "",
+        "ingredient": "Parmesan",
+        "amount": "50 g",
+        "modifier": "gerieben"
+      },
+      {
+        "category": "",
+        "ingredient": "Gemüsebrühe",
+        "amount": "2 TL",
+        "modifier": "Pulver"
+      },
+      {
+        "category": "",
+        "ingredient": "Mehl",
+        "amount": "2 EL",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Sambal Olek",
+        "amount": "2/3 TL",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Olivenöl",
+        "amount": "2 EL",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Öl",
+        "amount": "1 EL",
+        "modifier": "neutral, z.B. Raps oder Sonnenblume"
+      },
+      {
+        "category": "",
+        "ingredient": "Salz",
+        "amount": "",
+        "modifier": ""
+      }
+    ]
+  },
+  "FancyfullSteps": {
+    "fast": [
+      {
+        "title": "Nudeln",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Tagliatelle",
+            "amount": "250 g",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Salz",
+            "amount": "",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Gemüsebrühe",
+            "amount": "2 TL",
+            "modifier": "Pulver"
+          }
+        ],
+        "description": "Tagliatelle in gesalzenem Wasser al dente kochen (ca. 8-9 min). Beim abgießen ca. 400 mL Nudelwasser auffangen und mit Gemüsebrühe verrühren."
+      },
+      {
+        "title": "Haselnüsse rösten",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Haselnüsse",
+            "amount": "80 g",
+            "modifier": "gehackt"
+          }
+        ],
+        "description": "In einer trockenen Pfanne auf mittelhoher Hitze die Haselnüsse rösten. Sie sind fertig, wenn sie goldbraun sind und der Geruch leicht verbrannte Noten annimmt. Die Haselnüsse aus der Pfanne nehmen und zur Seite stellen."
+      },
+      {
+        "title": "Gemüse anbraten",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Öl",
+            "amount": "1 EL",
+            "modifier": "neutral, z.B. Raps oder Sonnenblume"
+          },
+          {
+            "category": "",
+            "ingredient": "Paprika",
+            "amount": "2",
+            "modifier": "rot"
+          },
+          {
+            "category": "",
+            "ingredient": "Olivenöl",
+            "amount": "2 EL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Erbsen",
+            "amount": "1 Handvoll",
+            "modifier": ""
+          }
+        ],
+        "description": "Während die Haselnüsse rösten, die Paprika in dünne Streifen schneiden. Nachdem die Haselnüsse aus der Pfanne genommen wurden, das neutrale Öl in die heiße Pfanne geben. Die Paprika hinzugeben. ACHTUNG: Es kann etwas spritzen.\n\nNach ca. 1 Minute das Olivenöl hinzugeben und unter gelegentlichem rühren weiter braten, bis die Paprika weich ist.\n\nDie Erbsen hinzugeben. Falls es sich um TK Erbsen handelt, weiter braten, bis sie aufgetaut sind."
+      },
+      {
+        "title": "Soße",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Mehl",
+            "amount": "2 EL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Sambal Olek",
+            "amount": "2/3 TL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Gemüsebrühe",
+            "amount": "",
+            "modifier": "mit Nudelwasser angerührt"
+          },
+          {
+            "category": "",
+            "ingredient": "Zitronenabrieb",
+            "amount": "",
+            "modifier": "von 1/2 Zitrone"
+          }
+        ],
+        "description": "Das Mehl in die Pfanne geben und gut umrühren, bis sich das Mehl gleichmäßig im Öl löst und keine Klumpen verbleiben. Das Sambal Olek dazu geben und für ca. 1 Minute unter rühren weiter an braten.\n\nMit der Gemüsebrühe ablöschen und köcheln lassen.\nTipp: Am einfachsten die Gemüsebrühe in 3 Etappen hinzugeben und jeweils gut umrühren.\n\nSobald die Soße die gewünschte Konsistent erreicht hat, den Zitronenabrieb hinzugeben."
+      },
+      {
+        "title": "Anrichten",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Tagliatelle",
+            "amount": "250 g",
+            "modifier": "gekocht"
+          },
+          {
+            "category": "",
+            "ingredient": "Paprikasoße",
+            "amount": "",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Haselnüsse",
+            "amount": "80 g",
+            "modifier": "geröstet"
+          },
+          {
+            "category": "",
+            "ingredient": "Parmesan",
+            "amount": "50 g",
+            "modifier": "gerieben"
+          }
+        ],
+        "description": "Die Nudeln mit der Soße verrühren.\n\nZum anrichten die Nudeln mit der Soße in einem tiefen Teller platzien, mit Haselnüssen und Parmesan bestreuen."
+      }
+    ]
+  }
+}

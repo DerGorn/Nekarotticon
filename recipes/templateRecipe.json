@@ -1,0 +1,41 @@
+{
+  "image": "",
+  "MetaData": {
+    "title": "",
+    "date": "TT.MM.JJJJ",
+    "fancyLevels": ["fast", "normal", "extra"],
+    "FancyfullTimeNeeded": {
+      "fast": "0 min",
+      "normal": "0 min",
+      "extra": "0 min"
+    },
+    "FancyfullDifficulty": {
+      "fast": "easy",
+      "normal": "medium",
+      "extra": "hard"
+    }
+  },
+  "FancyfullIngredients": {
+    "fast": [
+      {
+        "category": "",
+        "ingredient": "",
+        "amount": "",
+        "modifier": ""
+      }
+    ],
+    "normal": [],
+    "extra": []
+  },
+  "FancyfullSteps": {
+    "fast": [
+      {
+        "title": "",
+        "ingredients": [],
+        "description": ""
+      }
+    ],
+    "normal": [],
+    "extra": []
+  }
+}
