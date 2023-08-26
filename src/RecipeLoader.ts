@@ -23,7 +23,7 @@ const loadRecipe = async ({
       fancyness = undefined;
     }
   }
-  const recipe: FancyfullRecipe = await fetch(`/recipes/${name}.json`).then(
+  const recipe: FancyfullRecipe = await fetch(`recipes/${name}.json`).then(
     (d) => d.json()
   );
   if (

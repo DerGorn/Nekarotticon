@@ -8,7 +8,7 @@ const loadRecipe = async ({ name, fancyness, }) => {
             fancyness = undefined;
         }
     }
-    const recipe = await fetch(`/recipes/${name}.json`).then((d) => d.json());
+    const recipe = await fetch(`recipes/${name}.json`).then((d) => d.json());
     if (fancyness === undefined ||
         !recipe.MetaData.fancyLevels.includes(Fancyness[fancyness])) {
         const minFancyness = recipe.MetaData.fancyLevels[0];
