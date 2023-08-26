@@ -1,2 +1,1 @@
-# TypeScriptStarterPack
-A small collection of stapels. Including a type safe EventBUS framework and a simplified document.createElement.
+Ein Blog in Entwicklung auf dem ich meine Kocherfolge verewigen möchte.
