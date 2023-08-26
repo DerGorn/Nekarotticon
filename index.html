@@ -7,6 +7,18 @@
     <link rel="icon" type="image/png" href="images/logo.png" />
   </head>
   <body>
+    <svg style="position: absolute; ">
+      <filter id="wavy2">
+        <feTurbulence
+          x="0"
+          y="0"
+          baseFrequency="0.02"
+          numOctaves="5"
+          seed="1"
+        />
+        <feDisplacementMap in="SourceGraphic" scale="20" />
+      </filter>
+    </svg>
     <script type="module" src="dst/index.js"></script>
   </body>
 </html>

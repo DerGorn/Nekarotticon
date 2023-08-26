@@ -1,22 +1,40 @@
 import { body, createElement } from "./DOM.js";
 import EventBUS from "./EventBUS.js";
 import { Difficulties, } from "./constants.js";
+window.addEventListener("resize", function () {
+    ScrollHeight();
+});
+function ScrollHeight() {
+    var content = document.querySelectorAll(".parchment");
+    var container = document.querySelectorAll(".contain");
+    for (let i = 0; i < content.length; i++) {
+        if (content[i] == null || container[i] == null)
+            break;
+        content[i].style.height = container[i].offsetHeight + "px";
+    }
+}
 const buildBaseSite = () => {
     const site = createElement("div", {}, "site");
+    const content = createElement("div", {}, "contain");
+    const parchment = createElement("div", {}, "parchment");
+    site.append(parchment, content);
     const logo = createElement("img", {}, "logo");
     logo.src = "images/logo.png";
     logo.addEventListener("click", () => alert("Home"));
     site.append(logo);
-    return site;
+    body.append(site);
+    return content;
 };
 const buildHeader = (image, MetaData, fancy) => {
-    const header = createElement("div", { style: { backgroundImage: `url(images/${image})` } }, "recipeHeader");
+    const header = createElement("div", {}, "recipeHeader");
     const titleHolder = createElement("div", {}, "titleHolder");
     const title = createElement("div", {}, "text", "title");
     title.innerText = MetaData.title;
     const date = createElement("div", {}, "text", "appendix");
     date.innerText = MetaData.date;
     titleHolder.append(title, date);
+    const recipeImage = createElement("img", {}, "recipeImage");
+    recipeImage.src = `images/${image}`;
     const metaData = createElement("div", {}, "recipeMetaData");
     const time = createElement("div", { style: { fontWeight: "bold" } }, "text");
     time.innerText = "Zeit: ";
@@ -49,7 +67,7 @@ const buildHeader = (image, MetaData, fancy) => {
     fancynessText.innerText = fancy;
     fancyness.append(fancynessText);
     metaData.append(time, difficulty, fancyness);
-    header.append(titleHolder, metaData);
+    header.append(titleHolder, recipeImage, metaData);
     return header;
 };
 const buildIngredients = (ingredients) => {
@@ -101,7 +119,7 @@ const buildRecipe = ({ recipe, fancy }) => {
     const header = buildHeader(recipe.image, recipe.MetaData, fancy);
     const recipeBody = buildRecipeBody(recipe);
     site.append(header, recipeBody);
-    body.append(site);
+    ScrollHeight();
     console.log(recipe, fancy);
 };
 const RecipeBuilder = {
