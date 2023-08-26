@@ -10,7 +10,7 @@ const buildBaseSite = () => {
     return site;
 };
 const buildHeader = (image, MetaData, fancy) => {
-    const header = createElement("div", { style: { backgroundImage: `url(/images/${image})` } }, "recipeHeader");
+    const header = createElement("div", { style: { backgroundImage: `url(images/${image})` } }, "recipeHeader");
     const titleHolder = createElement("div", {}, "titleHolder");
     const title = createElement("div", {}, "text", "title");
     title.innerText = MetaData.title;

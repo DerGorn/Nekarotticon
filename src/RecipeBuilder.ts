@@ -21,7 +21,7 @@ const buildBaseSite = () => {
 const buildHeader = (image: string, MetaData: MetaData, fancy: Fancy) => {
   const header = createElement(
     "div",
-    { style: { backgroundImage: `url(/images/${image})` } },
+    { style: { backgroundImage: `url(images/${image})` } },
     "recipeHeader"
   );
   const titleHolder = createElement("div", {}, "titleHolder");
