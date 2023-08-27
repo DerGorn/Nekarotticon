@@ -1,0 +1,263 @@
+{
+  "image": "",
+  "MetaData": {
+    "title": "Kartoffel-Brokkoli-Salat mit Kichererbsen",
+    "rating": "good",
+    "date": "27.08.2023",
+    "fancyLevels": ["normal"],
+    "FancyfullTimeNeeded": {
+      "normal": "90 min"
+    },
+    "FancyfullDifficulty": {
+      "normal": "einfach"
+    }
+  },
+  "FancyfullIngredients": {
+    "normal": [
+      {
+        "category": "",
+        "ingredient": "Kartoffeln",
+        "amount": "800 g",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Brokkoli",
+        "amount": "1",
+        "modifier": "ca. 500 g"
+      },
+      {
+        "category": "",
+        "ingredient": "Paprika",
+        "amount": "1",
+        "modifier": "rot"
+      },
+      {
+        "category": "",
+        "ingredient": "Kichererbsen",
+        "amount": "1 Dose",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Zimt",
+        "amount": "1 Prise",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Schnittlauch",
+        "amount": "1 Handvoll",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Zitrone",
+        "amount": "1",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Öl",
+        "amount": "6 EL",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Harissa",
+        "amount": "1,5 TL",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Salz",
+        "amount": "",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Pfeffer",
+        "amount": "",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Ei",
+        "amount": "2",
+        "modifier": ""
+      }
+    ]
+  },
+  "FancyfullSteps": {
+    "normal": [
+      {
+        "title": "Kartoffeln",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Kartoffeln",
+            "amount": "800 g",
+            "modifier": ""
+          }
+        ],
+        "description": "Schäle die Kartoffeln und koche sie für ca. 30 Minuten, bis sie durch sind.\nTipp: Die Kartoffeln sind gar, sobald man einfach mit einer Gabel rein picksen kann.\n\nSobald die Kartoffeln abgekühlt sind, schneide sie in ca. 5 mm dicke Scheiben."
+      },
+      {
+        "title": "Kichererbsen",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Kichererbsen",
+            "amount": "1 Dose",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Öl",
+            "amount": "1 EL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Zimt",
+            "amount": "1 Prise",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Salz",
+            "amount": "",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Pfeffer",
+            "amount": "",
+            "modifier": ""
+          }
+        ],
+        "description": "Gieße die Kichererbsen ab. Gebe sie zusammen mit den restlichen Zutaten in eine Auflaufform oder auf ein Backblech, sodass etwas Platz zwischen ihnen bleibt.\n\nBacke die Kichererbsen für ca. 30 Minuten bei 200 °C. Rühre sie dabei gelegentlich um. Die Kichererbsen sind fertig, sobald sie etwas knusprig geworden sind."
+      },
+      {
+        "title": "Brokkoli",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Brokkoli",
+            "amount": "1",
+            "modifier": "ca. 500 g"
+          },
+          {
+            "category": "",
+            "ingredient": "Öl",
+            "amount": "2 EL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Harissa",
+            "amount": "1,5 TL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Salz",
+            "amount": "",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Pfeffer",
+            "amount": "",
+            "modifier": ""
+          }
+        ],
+        "description": "Schneide die Röschen vom Brokkoli und in Mundgerechte Stücke. Gebe sie mit Harissa, Öl und Salz und Pfeffer nach Geschmack in eine Auflaufform. Mische alles gut durch und backe es für ca. 30 Minuten bei 200 °C. Rühre sie dabei gelegentlich um."
+      },
+      {
+        "title": "Dressing",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Schnittlauch",
+            "amount": "1 Handvoll",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Zitrone",
+            "amount": "1",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Öl",
+            "amount": "3 EL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Salz",
+            "amount": "1 TL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Pfeffer",
+            "amount": "1 TL",
+            "modifier": ""
+          }
+        ],
+        "description": "Schneide den Schnittlauch klein. Gebe Zitronenabrieb, den Zitronensaft und den Rest dazu. Rühre alles gut durch, bis sich ein Dressing ergibt.\nTipp: Im fertigen Dressing sollte keine Trennung zwischen Öl und Zitronensaft mehr erkennbar sein."
+      },
+      {
+        "title": "Salat",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Kartoffeln",
+            "amount": "",
+            "modifier": "in Scheiben"
+          },
+          {
+            "category": "",
+            "ingredient": "Kichererbsen",
+            "amount": "",
+            "modifier": "gebacken"
+          },
+          {
+            "category": "",
+            "ingredient": "Brokkoli",
+            "amount": "",
+            "modifier": "gebacken"
+          },
+          {
+            "category": "",
+            "ingredient": "Dressing",
+            "amount": "",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Paprika",
+            "amount": "1",
+            "modifier": "rot"
+          }
+        ],
+        "description": "Schneide die Paprika in ca. 3cm lange dünne Streifen. Gebe sie zusammen mit den restlichen Sachen zusammen."
+      },
+      {
+        "title": "Anrichten",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Ei",
+            "amount": "2",
+            "modifier": ""
+          }
+        ],
+        "description": "Richte den Salat in Schüsseln in. Brate 2 Spiegeleier und platziere sie auf dem Salat.\nTipp für das perfekte Spiegelei: Gib 1 EL Butter in eine Pfanne. Sobald die Butter langsam braun wird, gib 1 Ei hinzu und brate es bei mittelhoher Hitze bis es auf der Unterseite knusprig ist. Abschließend streue eine Prise Salz darüber."
+      }
+    ]
+  }
+}
