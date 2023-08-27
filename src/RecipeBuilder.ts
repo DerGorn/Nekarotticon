@@ -5,6 +5,7 @@ import {
   Fancy,
   Ingredient,
   MetaData,
+  RatingColorMap,
   Recipe,
   Step,
 } from "./constants.js";
@@ -39,6 +40,8 @@ const buildBaseSite = () => {
 };
 
 const buildHeader = (image: string, MetaData: MetaData, fancy: Fancy) => {
+  const ratingColor = RatingColorMap[MetaData.rating];
+
   const header = createElement(
     "div",
     // { style: { backgroundImage: `url(images/${image})` } },
@@ -46,13 +49,22 @@ const buildHeader = (image: string, MetaData: MetaData, fancy: Fancy) => {
     "recipeHeader"
   );
   const titleHolder = createElement("div", {}, "titleHolder");
-  const title = createElement("div", {}, "text", "title");
+  const title = createElement(
+    "div",
+    { style: { textDecorationColor: ratingColor } },
+    "text",
+    "title"
+  );
   title.innerText = MetaData.title;
   const date = createElement("div", {}, "text", "appendix");
   date.innerText = MetaData.date;
   titleHolder.append(title, date);
 
-  const recipeImage = createElement("img", {}, "recipeImage");
+  const recipeImage = createElement(
+    "img",
+    { style: { borderColor: ratingColor } },
+    "recipeImage"
+  );
   recipeImage.src = `images/${image}`;
 
   const metaData = createElement("div", {}, "recipeMetaData");
@@ -109,14 +121,9 @@ const buildHeader = (image: string, MetaData: MetaData, fancy: Fancy) => {
     { style: { fontWeight: "bold" } },
     "text"
   );
-  fancyness.innerText = "Fancyness: ";
-  const fancynessText = createElement(
-    "span",
-    { style: { fontWeight: "normal" } },
-    "text"
-  );
-  fancynessText.innerText = fancy;
-  fancyness.append(fancynessText);
+  const fancynessImage = createElement("img", {}, "fancyImage");
+  fancynessImage.src = `images/Fancy/${fancy}.png`;
+  fancyness.append(fancynessImage);
   metaData.append(time, difficulty, fancyness);
   header.append(titleHolder, recipeImage, metaData);
   return header;

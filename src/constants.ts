@@ -5,15 +5,30 @@ enum Fancyness {
 }
 type Fancy = keyof typeof Fancyness;
 
+enum Ratings {
+  experiment,
+  adventure,
+  good,
+  divine,
+}
+type Rating = keyof typeof Ratings;
+const RatingColorMap: { [key in Rating]: string } = {
+  experiment: "red",
+  adventure: "yellow",
+  good: "green",
+  divine: "purple",
+};
+
 enum Difficulties {
-  easy,
-  medium,
-  hard,
+  einfach,
+  mittel,
+  hart,
   iter,
 }
 type Difficulty = keyof typeof Difficulties;
 type FancyfullMetaData = {
   title: string;
+  rating: Rating;
   date: "TT.MM.JJJJ";
   fancyLevels: Fancy[];
   FancyfullTimeNeeded: { [keys in Fancy]: "0 min" };
@@ -39,6 +54,7 @@ type FancyfullRecipe = {
 };
 type MetaData = {
   title: string;
+  rating: Rating;
   date: "TT.MM.JJJJ";
   fancyLevels: Fancy[];
   timeNeeded: "0 min";
@@ -61,4 +77,5 @@ export {
   Step,
   Difficulty,
   MetaData,
+  RatingColorMap,
 };

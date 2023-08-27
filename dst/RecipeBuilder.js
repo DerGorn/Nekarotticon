@@ -1,6 +1,6 @@
 import { body, createElement } from "./DOM.js";
 import EventBUS from "./EventBUS.js";
-import { Difficulties, } from "./constants.js";
+import { Difficulties, RatingColorMap, } from "./constants.js";
 window.addEventListener("resize", function () {
     ScrollHeight();
 });
@@ -26,14 +26,15 @@ const buildBaseSite = () => {
     return content;
 };
 const buildHeader = (image, MetaData, fancy) => {
+    const ratingColor = RatingColorMap[MetaData.rating];
     const header = createElement("div", {}, "recipeHeader");
     const titleHolder = createElement("div", {}, "titleHolder");
-    const title = createElement("div", {}, "text", "title");
+    const title = createElement("div", { style: { textDecorationColor: ratingColor } }, "text", "title");
     title.innerText = MetaData.title;
     const date = createElement("div", {}, "text", "appendix");
     date.innerText = MetaData.date;
     titleHolder.append(title, date);
-    const recipeImage = createElement("img", {}, "recipeImage");
+    const recipeImage = createElement("img", { style: { borderColor: ratingColor } }, "recipeImage");
     recipeImage.src = `images/${image}`;
     const metaData = createElement("div", {}, "recipeMetaData");
     const time = createElement("div", { style: { fontWeight: "bold" } }, "text");
@@ -62,10 +63,9 @@ const buildHeader = (image, MetaData, fancy) => {
     difficultyHolder.append(difficultyIcons, difficultyText);
     difficulty.append(difficultyHolder);
     const fancyness = createElement("div", { style: { fontWeight: "bold" } }, "text");
-    fancyness.innerText = "Fancyness: ";
-    const fancynessText = createElement("span", { style: { fontWeight: "normal" } }, "text");
-    fancynessText.innerText = fancy;
-    fancyness.append(fancynessText);
+    const fancynessImage = createElement("img", {}, "fancyImage");
+    fancynessImage.src = `images/Fancy/${fancy}.png`;
+    fancyness.append(fancynessImage);
     metaData.append(time, difficulty, fancyness);
     header.append(titleHolder, recipeImage, metaData);
     return header;

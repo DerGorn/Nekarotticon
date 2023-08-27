@@ -2,13 +2,14 @@
   "image": "",
   "MetaData": {
     "title": "Haselnussnudeln mit Paprika",
+    "rating": "adventure",
     "date": "23.08.2023",
     "fancyLevels": ["fast"],
     "FancyfullTimeNeeded": {
       "fast": "30 min"
     },
     "FancyfullDifficulty": {
-      "fast": "medium"
+      "fast": "mittel"
     }
   },
   "FancyfullIngredients": {

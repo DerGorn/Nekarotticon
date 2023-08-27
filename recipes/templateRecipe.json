@@ -2,6 +2,7 @@
   "image": "",
   "MetaData": {
     "title": "",
+    "rating": "experiment | adventure | good | divine",
     "date": "TT.MM.JJJJ",
     "fancyLevels": ["fast", "normal", "extra"],
     "FancyfullTimeNeeded": {
@@ -10,9 +11,9 @@
       "extra": "0 min"
     },
     "FancyfullDifficulty": {
-      "fast": "easy",
-      "normal": "medium",
-      "extra": "hard"
+      "fast": "einfach",
+      "normal": "mittel",
+      "extra": "hart"
     }
   },
   "FancyfullIngredients": {

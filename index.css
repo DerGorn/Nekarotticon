@@ -77,7 +77,7 @@ body {
 .logo {
   position: absolute;
   right: 0;
-  width: 5rem;
+  width: 8rem;
 }
 
 .logo:hover {
@@ -89,18 +89,17 @@ body {
 .recipeHeader {
   display: flex;
   flex-direction: column;
-  /* max-height: var(--header-height); */
-  /* justify-content: space-between; */
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  /* background-size: 100vw calc(var(--header-height) * 0.83); */
+  width: 100%;
   padding-top: 0.4rem;
   border-bottom: 2px solid black;
+  align-items: center;
 }
 
 .recipeImage {
+  width: min-content;
   max-width: 100%;
   overflow: hidden;
+  border: 6px solid black;
 }
 
 .text {
@@ -114,9 +113,11 @@ body {
 }
 
 .titleHolder {
+  width: 100%;
   display: flex;
   gap: 1rem;
   align-items: baseline;
+  justify-content: center;
 }
 
 .title {
@@ -131,11 +132,12 @@ body {
 }
 
 .recipeMetaData {
+  width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
 .difficultyManager {
@@ -150,19 +152,29 @@ body {
   align-items: center;
 }
 
+.difficultyIcon {
+  line-height: 0;
+}
+
 .difficultyIcon.active {
-  background-image: radial-gradient(black, transparent);
+  background-image: url(images/silhouetteBackground.png);
   background-repeat: no-repeat;
-  background-size: 100% 90%;
+  background-position-y: 0.3rem;
+  background-size: 100% 2rem;
 }
 
 .difficultyIcon.inactive {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .difficultyIconImage {
   margin-top: 0.3rem;
   height: 2rem;
+}
+
+.fancyImage {
+  padding-top: 0.2rem;
+  height: 4rem;
 }
 
 .recipeDescription {

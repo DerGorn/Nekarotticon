@@ -19,6 +19,7 @@ const loadRecipe = async ({ name, fancyness, }) => {
         image: recipe.image,
         MetaData: {
             date: recipe.MetaData.date,
+            rating: recipe.MetaData.rating,
             difficulty: recipe.MetaData.FancyfullDifficulty[fancy],
             fancyLevels: recipe.MetaData.fancyLevels,
             title: recipe.MetaData.title,

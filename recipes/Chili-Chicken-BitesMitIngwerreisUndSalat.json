@@ -2,6 +2,7 @@
   "image": "",
   "MetaData": {
     "title": "Chili-Chicken-Bites mit Ingwerreis und Salat",
+    "rating": "divine",
     "date": "21.08.2023",
     "fancyLevels": ["fast", "extra"],
     "FancyfullTimeNeeded": {
@@ -9,8 +10,8 @@
       "extra": "90 min"
     },
     "FancyfullDifficulty": {
-      "fast": "medium",
-      "extra": "hard"
+      "fast": "mittel",
+      "extra": "hart"
     }
   },
   "FancyfullIngredients": {

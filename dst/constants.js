@@ -4,11 +4,24 @@ var Fancyness;
     Fancyness[Fancyness["normal"] = 1] = "normal";
     Fancyness[Fancyness["extra"] = 2] = "extra";
 })(Fancyness || (Fancyness = {}));
+var Ratings;
+(function (Ratings) {
+    Ratings[Ratings["experiment"] = 0] = "experiment";
+    Ratings[Ratings["adventure"] = 1] = "adventure";
+    Ratings[Ratings["good"] = 2] = "good";
+    Ratings[Ratings["divine"] = 3] = "divine";
+})(Ratings || (Ratings = {}));
+const RatingColorMap = {
+    experiment: "red",
+    adventure: "yellow",
+    good: "green",
+    divine: "purple",
+};
 var Difficulties;
 (function (Difficulties) {
-    Difficulties[Difficulties["easy"] = 0] = "easy";
-    Difficulties[Difficulties["medium"] = 1] = "medium";
-    Difficulties[Difficulties["hard"] = 2] = "hard";
+    Difficulties[Difficulties["einfach"] = 0] = "einfach";
+    Difficulties[Difficulties["mittel"] = 1] = "mittel";
+    Difficulties[Difficulties["hart"] = 2] = "hart";
     Difficulties[Difficulties["iter"] = 3] = "iter";
 })(Difficulties || (Difficulties = {}));
-export { Fancyness, Difficulties, };
+export { Fancyness, Difficulties, RatingColorMap, };
