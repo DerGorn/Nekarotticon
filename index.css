@@ -78,6 +78,7 @@ body {
   position: absolute;
   right: 0;
   width: 8rem;
+  max-width: 9%;
 }
 
 .logo:hover {

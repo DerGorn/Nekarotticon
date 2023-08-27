@@ -22,7 +22,7 @@ const RatingColorMap: { [key in Rating]: string } = {
 enum Difficulties {
   einfach,
   mittel,
-  hart,
+  schwer,
   iter,
 }
 type Difficulty = keyof typeof Difficulties;

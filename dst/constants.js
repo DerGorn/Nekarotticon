@@ -21,7 +21,7 @@ var Difficulties;
 (function (Difficulties) {
     Difficulties[Difficulties["einfach"] = 0] = "einfach";
     Difficulties[Difficulties["mittel"] = 1] = "mittel";
-    Difficulties[Difficulties["hart"] = 2] = "hart";
+    Difficulties[Difficulties["schwer"] = 2] = "schwer";
     Difficulties[Difficulties["iter"] = 3] = "iter";
 })(Difficulties || (Difficulties = {}));
 export { Fancyness, Difficulties, RatingColorMap, };
