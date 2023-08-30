@@ -1,3 +1,4 @@
+import { body, createElement } from "./DOM.js";
 var Fancyness;
 (function (Fancyness) {
     Fancyness[Fancyness["fast"] = 0] = "fast";
@@ -24,4 +25,28 @@ var Difficulties;
     Difficulties[Difficulties["schwer"] = 2] = "schwer";
     Difficulties[Difficulties["iter"] = 3] = "iter";
 })(Difficulties || (Difficulties = {}));
-export { Fancyness, Difficulties, RatingColorMap, };
+window.addEventListener("resize", function () {
+    ScrollHeight();
+});
+function ScrollHeight() {
+    var content = document.querySelectorAll(".parchment");
+    var container = document.querySelectorAll(".contain");
+    for (let i = 0; i < content.length; i++) {
+        if (content[i] == null || container[i] == null)
+            break;
+        content[i].style.height = container[i].offsetHeight + "px";
+    }
+}
+const buildBaseSite = () => {
+    const site = createElement("div", {}, "site");
+    const content = createElement("div", {}, "contain");
+    const parchment = createElement("div", {}, "parchment");
+    site.append(parchment, content);
+    const logo = createElement("img", {}, "logo");
+    logo.src = "images/logo.png";
+    logo.addEventListener("click", () => alert("Home"));
+    site.append(logo);
+    body.append(site);
+    return content;
+};
+export { Fancyness, Difficulties, RatingColorMap, buildBaseSite, ScrollHeight, };

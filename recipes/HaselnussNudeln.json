@@ -217,5 +217,8 @@
         "description": "Die Nudeln mit der Soße verrühren.\n\nZum anrichten die Nudeln mit der Soße in einem tiefen Teller platzien, mit Haselnüssen und Parmesan bestreuen."
       }
     ]
+  },
+  "FancyfullDescription": {
+    "fast": ""
   }
 }

@@ -1,0 +1,116 @@
+{
+  "image": "",
+  "MetaData": {
+    "title": "Kokospanierte Süßkartoffeln",
+    "rating": "adventure",
+    "date": "30.08.2023",
+    "fancyLevels": ["fast"],
+    "FancyfullTimeNeeded": {
+      "fast": "45 min"
+    },
+    "FancyfullDifficulty": {
+      "fast": "einfach"
+    }
+  },
+  "FancyfullIngredients": {
+    "fast": [
+      {
+        "category": "",
+        "ingredient": "Süßkartoffeln",
+        "amount": "2",
+        "modifier": "klein"
+      },
+      {
+        "category": "",
+        "ingredient": "Kokosraspeln",
+        "amount": "100 g",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Zimt",
+        "amount": "1/2 TL",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Muskatnuss",
+        "amount": "1/2 TL",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Salz",
+        "amount": "1/2 TL",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Eier",
+        "amount": "4",
+        "modifier": ""
+      },
+      {
+        "category": "",
+        "ingredient": "Mehl",
+        "amount": "100 g",
+        "modifier": ""
+      }
+    ]
+  },
+  "FancyfullSteps": {
+    "fast": [
+      {
+        "title": "Süßkartoffeln",
+        "ingredients": [
+          {
+            "category": "",
+            "ingredient": "Süßkartoffeln",
+            "amount": "2",
+            "modifier": "klein"
+          },
+          {
+            "category": "",
+            "ingredient": "Kokosraspeln",
+            "amount": "100 g",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Zimt",
+            "amount": "1/2 TL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Muskatnuss",
+            "amount": "1/2 TL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Salz",
+            "amount": "1/2 TL",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Eier",
+            "amount": "4",
+            "modifier": ""
+          },
+          {
+            "category": "",
+            "ingredient": "Mehl",
+            "amount": "100 g",
+            "modifier": ""
+          }
+        ],
+        "description": "Schäle die Süßkartoffeln und schneide sie in ca. 1 cm dicke Streifen.\n\nBereite die Panierstraße vor. Mische in einer Schüssel das Mehl mit dem Salz. Verquirle die Eier in einer zweiten Schüssel. In einer dritten Schüssel Mische die Kokosraspeln mit dem Zimt, der Muskatnuss und einer Hand von dem Mehl aus der ersten Schüssel.\n\nWende die Süßkartoffelsticks im Mehl, bis sie vollständig bedeckt sind. Wende sie anschließend im Ei. Abschließend wende sie in den Kokosraspeln, bis sie vollständig bedeckt sind.\n\nBrate die panierten Süßkartoffeln in reichlich Öl bei mittlere bis mittelhoher Hitze, bis sie goldbraun sind."
+      }
+    ]
+  },
+  "FancyfullDescription": {
+    "fast": "Kokosnuss und Süßkartoffeln klingt erstmal nach einer interessanten Idee und obwohl das Ergebnis interessante Geschmacksnoten bietet, fehlt einfach das gewisse Etwas. Die Süßkartoffel bietet eine leicht süße jedoch recht neutrale Basis. Durch die Panade kommt der typisch fritierte Geschmack hervor. Zimt, Muskat und Kokos bilden interessante Geschmacksnoten, die jedoch recht subtil und zurückhaltend sind. Insgesamt funktioniert alles gut zusammen, aber es gibt keine Überraschungen, keine Spannung.\n\nDiese Süßkartoffeln bieten eine gute Basis für eine aufregende, kräftige Soße oder eine sanfte Beilage zu einem geschmacksintensiven Abenteuer. Besonders empfehlenswert sind saure und fruchtige Noten, die durch den fettigen Charakter der Panade brechen und gut mit der Süße der Kartoffeln zusammen arbeiten."
+  }
+}

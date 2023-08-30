@@ -1,3 +1,5 @@
+import { body, createElement } from "./DOM.js";
+
 enum Fancyness {
   fast,
   normal,
@@ -51,6 +53,7 @@ type FancyfullRecipe = {
   difficulty: { [keys in Fancy]?: Difficulties };
   FancyfullIngredients: { [keys in Fancy]?: Ingredient[] };
   FancyfullSteps: { [keys in Fancy]?: Step[] };
+  FancyfullDescription: { [keys in Fancy]?: string };
 };
 type MetaData = {
   title: string;
@@ -65,6 +68,36 @@ type Recipe = {
   MetaData: MetaData;
   Ingredients: Ingredient[];
   Steps: Step[];
+  description: string;
+};
+
+window.addEventListener("resize", function () {
+  ScrollHeight();
+});
+
+function ScrollHeight() {
+  var content = document.querySelectorAll(".parchment");
+  var container = document.querySelectorAll(".contain");
+
+  for (let i = 0; i < content.length; i++) {
+    if (content[i] == null || container[i] == null) break;
+    //@ts-ignore
+    content[i].style.height = container[i].offsetHeight + "px";
+  }
+}
+
+const buildBaseSite = () => {
+  const site = createElement("div", {}, "site");
+  const content = createElement("div", {}, "contain");
+  const parchment = createElement("div", {}, "parchment");
+  site.append(parchment, content);
+  // const site = createElement("div", {}, "site");
+  const logo = createElement("img", {}, "logo");
+  logo.src = "images/logo.png";
+  logo.addEventListener("click", () => alert("Home"));
+  site.append(logo);
+  body.append(site);
+  return content;
 };
 
 export {
@@ -78,4 +111,6 @@ export {
   Difficulty,
   MetaData,
   RatingColorMap,
+  buildBaseSite,
+  ScrollHeight,
 };

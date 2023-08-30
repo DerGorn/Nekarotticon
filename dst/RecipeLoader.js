@@ -27,6 +27,7 @@ const loadRecipe = async ({ name, fancyness, }) => {
         },
         Ingredients: recipe.FancyfullIngredients[fancy],
         Steps: recipe.FancyfullSteps[fancy],
+        description: recipe.FancyfullDescription[fancy],
     };
     return { recipe: reducedRecipe, fancy };
 };

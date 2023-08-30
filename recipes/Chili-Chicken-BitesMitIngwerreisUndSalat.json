@@ -569,5 +569,9 @@
         "description": "Zum Anrichten nimm einen tiefen Teller oder eine große Schüssel. Gib Reis in die Schüssel, dann Salat. Gib das Tomatenrelish darüber. Schichte darauf das Hähnchen und verteile das Öl gleichmäßig darüber. Streue die zerbröselte Hähnchenhaut oben drüber."
       }
     ]
+  },
+  "FancyfullDescription": {
+    "normal": "",
+    "extra": ""
   }
 }

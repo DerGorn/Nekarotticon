@@ -1,4 +1,4 @@
-import { body, createElement } from "./DOM.js";
+import { createElement } from "./DOM.js";
 import EventBUS from "./EventBUS.js";
 import {
   Difficulties,
@@ -7,37 +7,10 @@ import {
   MetaData,
   RatingColorMap,
   Recipe,
+  ScrollHeight,
   Step,
+  buildBaseSite,
 } from "./constants.js";
-
-window.addEventListener("resize", function () {
-  ScrollHeight();
-});
-
-function ScrollHeight() {
-  var content = document.querySelectorAll(".parchment");
-  var container = document.querySelectorAll(".contain");
-
-  for (let i = 0; i < content.length; i++) {
-    if (content[i] == null || container[i] == null) break;
-    //@ts-ignore
-    content[i].style.height = container[i].offsetHeight + "px";
-  }
-}
-
-const buildBaseSite = () => {
-  const site = createElement("div", {}, "site");
-  const content = createElement("div", {}, "contain");
-  const parchment = createElement("div", {}, "parchment");
-  site.append(parchment, content);
-  // const site = createElement("div", {}, "site");
-  const logo = createElement("img", {}, "logo");
-  logo.src = "images/logo.png";
-  logo.addEventListener("click", () => alert("Home"));
-  site.append(logo);
-  body.append(site);
-  return content;
-};
 
 const buildHeader = (image: string, MetaData: MetaData, fancy: Fancy) => {
   const ratingColor = RatingColorMap[MetaData.rating];
@@ -66,6 +39,7 @@ const buildHeader = (image: string, MetaData: MetaData, fancy: Fancy) => {
     "recipeImage"
   );
   recipeImage.src = `images/${image}`;
+  recipeImage.addEventListener("load", ScrollHeight);
 
   const metaData = createElement("div", {}, "recipeMetaData");
   const time = createElement("div", { style: { fontWeight: "bold" } }, "text");
@@ -177,7 +151,10 @@ const buildRecipeBody = (recipe: Recipe) => {
 
   const steps = buildSteps(recipe.Steps);
 
-  body.append(ingredientHolder, steps);
+  const description = createElement("div", {}, "text");
+  description.innerText = recipe.description;
+
+  body.append(ingredientHolder, steps, description);
   return body;
 };
 
@@ -191,9 +168,7 @@ const buildRecipe = ({ recipe, fancy }: { recipe: Recipe; fancy: Fancy }) => {
   const recipeBody = buildRecipeBody(recipe);
 
   site.append(header, recipeBody);
-  // body.append(site);
   ScrollHeight();
-  console.log(recipe, fancy);
 };
 
 const RecipeBuilder = {

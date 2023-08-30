@@ -259,5 +259,8 @@
         "description": "Richte den Salat in Schüsseln in. Brate 2 Spiegeleier und platziere sie auf dem Salat.\nTipp für das perfekte Spiegelei: Gib 1 EL Butter in eine Pfanne. Sobald die Butter langsam braun wird, gib 1 Ei hinzu und brate es bei mittelhoher Hitze bis es auf der Unterseite knusprig ist. Abschließend streue eine Prise Salz darüber."
       }
     ]
+  },
+  "FancyfullDescription": {
+    "normal": ""
   }
 }

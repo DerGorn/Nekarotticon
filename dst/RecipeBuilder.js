@@ -1,30 +1,6 @@
-import { body, createElement } from "./DOM.js";
+import { createElement } from "./DOM.js";
 import EventBUS from "./EventBUS.js";
-import { Difficulties, RatingColorMap, } from "./constants.js";
-window.addEventListener("resize", function () {
-    ScrollHeight();
-});
-function ScrollHeight() {
-    var content = document.querySelectorAll(".parchment");
-    var container = document.querySelectorAll(".contain");
-    for (let i = 0; i < content.length; i++) {
-        if (content[i] == null || container[i] == null)
-            break;
-        content[i].style.height = container[i].offsetHeight + "px";
-    }
-}
-const buildBaseSite = () => {
-    const site = createElement("div", {}, "site");
-    const content = createElement("div", {}, "contain");
-    const parchment = createElement("div", {}, "parchment");
-    site.append(parchment, content);
-    const logo = createElement("img", {}, "logo");
-    logo.src = "images/logo.png";
-    logo.addEventListener("click", () => alert("Home"));
-    site.append(logo);
-    body.append(site);
-    return content;
-};
+import { Difficulties, RatingColorMap, ScrollHeight, buildBaseSite, } from "./constants.js";
 const buildHeader = (image, MetaData, fancy) => {
     const ratingColor = RatingColorMap[MetaData.rating];
     const header = createElement("div", {}, "recipeHeader");
@@ -36,6 +12,7 @@ const buildHeader = (image, MetaData, fancy) => {
     titleHolder.append(title, date);
     const recipeImage = createElement("img", { style: { borderColor: ratingColor } }, "recipeImage");
     recipeImage.src = `images/${image}`;
+    recipeImage.addEventListener("load", ScrollHeight);
     const metaData = createElement("div", {}, "recipeMetaData");
     const time = createElement("div", { style: { fontWeight: "bold" } }, "text");
     time.innerText = "Zeit: ";
@@ -108,7 +85,9 @@ const buildRecipeBody = (recipe) => {
     const ingredients = buildIngredients(recipe.Ingredients);
     ingredientHolder.append(ingredientTitle, ingredients);
     const steps = buildSteps(recipe.Steps);
-    body.append(ingredientHolder, steps);
+    const description = createElement("div", {}, "text");
+    description.innerText = recipe.description;
+    body.append(ingredientHolder, steps, description);
     return body;
 };
 const buildRecipe = ({ recipe, fancy }) => {
@@ -120,7 +99,6 @@ const buildRecipe = ({ recipe, fancy }) => {
     const recipeBody = buildRecipeBody(recipe);
     site.append(header, recipeBody);
     ScrollHeight();
-    console.log(recipe, fancy);
 };
 const RecipeBuilder = {
     start: () => {
