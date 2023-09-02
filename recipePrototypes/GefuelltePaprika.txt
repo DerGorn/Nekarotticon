@@ -1,0 +1,63 @@
+Gefüllte Paprika
+02.09.2023
+recipes/essen.png
+good
+normal:
+    60 min
+    einfach
+    Zutaten:
+        2 * Paprikas
+        100 g * Couscous
+        300 mL * Wasser
+        1/2 TL * Kreuzkümmel
+        1 1/2 EL * Ajvar * pikant
+        1 Schuss * Cointreau
+        1 TL * Paprikapulver
+        1 EL * Butter
+        1 Bund * Frühlingszwiebeln
+        4 * Kartoffeln * mittelgroß
+        1/2 TL * Rosmarin
+        1 EL * Öl
+        1 Dose * Tomaten * gehackt
+        1 TL * Brühe * Pulver
+        70 g * Parmesan * gerieben
+    Couscous:
+        100 g * Couscous
+        200 mL * Wasser
+        1/2 TL * Kreuzkümmel
+        1 Prise * Paprikapulver
+        1 Bund * Frühlingszwiebeln
+        1 EL * Butter
+        1 1/2 EL * Ajvar * pikant
+        1 Schuss * Cointreau
+
+        Mische den Couscous mit dem Paprikapulver, dem Kreuzkümmel. Bringe das Wasser zum kochen, gieße es über den Couscous und lasse ihn für ca. 5 Minuten ziehen.
+
+        Schneide die weißen Enden der Frühlingszwiebeln in feine Scheiben. Lege das grün für später zur Seite. Erhitze die Butter in einer Pfanne. Sobald die Butter blasen wirft, gib die Frühlingszwiebeln hinzu. Brate die Frühlinszwiebeln bei mittelhoher Hitze, bis sie weich sind. Gib das Ajvar hinzu und brate unter rühren weiter, bis sich ein Belag am Boden der Pfanne bildet. Lösche mit dem Cointreau ab. Mische den durchgezogenen Couscous hinzu und schmecke mit Salz ab.
+    Kartoffeln:
+        4 * Kartoffeln * mittelgroß
+        1/2 TL * Rosmarin
+        1 EL * Öl
+
+        Schneide die Kartoffeln in ca. 5mm dicke Scheiben. Gib sie in eine Auflaufform und würze sie mit Rosmarin, etwas Salz und Pfeffer und dem Öl. Backe sie bei 200 °C Oberhitze für 15 Minuten.
+    Tomatensoße:
+        1 Dose * Tomaten * gehackt
+        1 TL * Brühe * Pulver
+        1 TL * Paprikapulver
+        100 mL * Wasser
+        
+        Gib alle Zutaten in einen Topf und koche sie ein, bis die Soße, die gewünschte Konsistenz erreicht.
+    Zusammenbau:
+        2 * Paprikas
+         * Couscous
+         * Kartoffeln
+         * Tomatensoße
+        70 g * Parmesan * gerieben
+        1 Bund * Frühlingszwiebeln * grüne Spitzen
+
+        Halbiere die Paprikas und höhle sie aus. Fülle sie mit dem Couscous. 
+
+        Schneide die Frühlingszwiebeln in dünne Scheiben.
+
+        Gib die Tomatensoße über die Kartoffeln. Platziere die gefüllten Paprika darin. Streue die Fühlingszwiebeln und den Parmesan über die Auflaufform. Backe alles für 20 - 30 Minuten bei 180 °C Umluft.
+    Durch die verschieden Gewürzten Komponenten ergibt sich eine Vielzahl von Geschmackskombination. 
