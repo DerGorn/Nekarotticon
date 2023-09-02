@@ -1,7 +1,8 @@
-const eventTypes = ["loadRecipe", "buildRecipe"];
+const eventTypes = ["loadRecipe", "buildRecipe", "buildHome"];
 const registeredFunctions = {
     loadRecipe: [],
     buildRecipe: [],
+    buildHome: [],
 };
 const registerEventListener = (eventType, { index = -1 }, ...listener) => {
     if (index == -1)

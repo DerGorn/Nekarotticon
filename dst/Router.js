@@ -5,7 +5,7 @@ const availableRecipes = await fetch("recipes/availableRecipes.json")
 const Router = {
     navigate: async (searchString) => {
         if (searchString[0] !== "?") {
-            console.log("HERE: navigate to HomePage");
+            EventBUS.fireEvent("buildHome", {});
             return;
         }
         console.log(availableRecipes);
@@ -19,7 +19,7 @@ const Router = {
         }, {});
         console.log(searchParams);
         if (!("name" in searchParams)) {
-            console.log("HERE: no name to navigate to");
+            window.location.href = "404.html";
             return;
         }
         if (!availableRecipes.includes(searchParams.name)) {

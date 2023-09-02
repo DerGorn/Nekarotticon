@@ -7,7 +7,7 @@ import { Fancy, Fancyness, Recipe } from "./constants.js";
 /**
  * List of all possible Events. Basic stepping stone for the type safety
  */
-const eventTypes = ["loadRecipe", "buildRecipe"] as const;
+const eventTypes = ["loadRecipe", "buildRecipe", "buildHome"] as const;
 /**
  * Converts the eventTypes JavaScript array into a TypeScript type.
  */
@@ -21,6 +21,7 @@ type Events = (typeof eventTypes)[number];
 const registeredFunctions: { [key in Events]: ((e: any) => void)[] } = {
   loadRecipe: [],
   buildRecipe: [],
+  buildHome: [],
 };
 
 /**
@@ -29,7 +30,8 @@ const registeredFunctions: { [key in Events]: ((e: any) => void)[] } = {
  */
 type EventDefinitions = {
   loadRecipe: { name: string; fancyness?: Fancyness };
-  buildRecipe: {recipe: Recipe, fancy: Fancy};
+  buildRecipe: { recipe: Recipe; fancy: Fancy };
+  buildHome: {};
 };
 
 /**

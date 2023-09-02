@@ -44,7 +44,7 @@ const buildBaseSite = () => {
     site.append(parchment, content);
     const logo = createElement("img", {}, "logo");
     logo.src = "images/logo.png";
-    logo.addEventListener("click", () => alert("Home"));
+    logo.addEventListener("click", () => (window.location.search = ""));
     site.append(logo);
     body.append(site);
     return content;
