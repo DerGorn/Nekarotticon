@@ -1,0 +1,14 @@
+"title"
+TT.MM.JJJJ
+recipes/.png
+experiment | adventure | good | divine
+fast | normal | extra:
+    0 min
+    einfach | mittel | schwer
+    Zutaten:
+        "amount" * "ingredient" * "modifier" * "category"
+    "Step title":
+        [ingredients]
+
+        "description"
+    "Recipe description"
