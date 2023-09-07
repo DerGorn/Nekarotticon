@@ -35,8 +35,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18.x'
-      - run: node node/recipeManager.js
       - run: node node/recipeParser.js
+      - run: node node/recipeManager.js
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
