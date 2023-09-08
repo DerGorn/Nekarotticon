@@ -1,0 +1,20 @@
+Cocktail der Wahrheit
+09.09.2023
+recipes/.png
+divine
+fast:
+    2 min
+    einfach
+    Zutaten:
+        1 Schuß * Cointreau
+        1 Schuß * Bombai Bramble
+        1 * Zitrone
+        1 TL * Honig
+    Cockttail:
+        1 Schuß * Cointreau
+        1 Schuß * Bombai Bramble
+        1 * Zitrone
+        1 TL * Honig
+
+        Gib den Alkohol zusammen mit dem Zitronensaft und löse den Honig darin auf. 
+    Ballert und schmeckt geil.
