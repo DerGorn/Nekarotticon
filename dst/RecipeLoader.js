@@ -1,6 +1,6 @@
 import EventBUS from "./EventBUS.js";
 import { Fancyness, } from "./constants.js";
-const loadRecipe = async ({ name, fancyness, }) => {
+const loadRecipe = async ({ name, fancyness, card, }) => {
     if (typeof fancyness === "string") {
         fancyness = Number(fancyness);
         if (isNaN(fancyness)) {
@@ -29,11 +29,13 @@ const loadRecipe = async ({ name, fancyness, }) => {
         Steps: recipe.FancyfullSteps[fancy],
         description: recipe.FancyfullDescription[fancy],
     };
-    return { recipe: reducedRecipe, fancy };
+    return { recipe: reducedRecipe, fancy, card };
 };
 const RecipeLoader = {
     start: () => {
-        EventBUS.registerEventListener("loadRecipe", {}, async (e) => EventBUS.fireEvent("buildRecipe", await loadRecipe(e)));
+        EventBUS.registerEventListener("loadRecipe", {}, async (e) => {
+            EventBUS.fireEvent("buildRecipe", await loadRecipe(e));
+        });
     },
 };
 export default RecipeLoader;

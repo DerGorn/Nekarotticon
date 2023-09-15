@@ -102,7 +102,7 @@ const buildRecipe = ({ recipe, fancy }) => {
 };
 const RecipeBuilder = {
     start: () => {
-        EventBUS.registerEventListener("buildRecipe", {}, buildRecipe);
+        EventBUS.registerEventListener("buildRecipe", {}, (e) => !e.card && buildRecipe(e));
     },
 };
 export default RecipeBuilder;

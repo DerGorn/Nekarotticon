@@ -27,8 +27,12 @@ const Router = {
     if (!availableRecipes.includes(searchParams.name)) {
       window.location.href = "404.html";
     }
-    EventBUS.fireEvent("loadRecipe", searchParams as { name: string });
+    EventBUS.fireEvent("loadRecipe", { ...searchParams, card: false } as {
+      name: string;
+      card: boolean;
+    });
   },
 };
 
 export default Router;
+export { availableRecipes };

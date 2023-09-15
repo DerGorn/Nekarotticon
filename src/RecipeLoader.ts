@@ -12,10 +12,12 @@ import {
 const loadRecipe = async ({
   name,
   fancyness,
+  card,
 }: {
   name: string;
   fancyness?: Fancyness;
-}): Promise<{ recipe: Recipe; fancy: Fancy }> => {
+  card: boolean;
+}): Promise<{ recipe: Recipe; fancy: Fancy; card: boolean }> => {
   if (typeof fancyness === "string") {
     fancyness = Number(fancyness);
     if (isNaN(fancyness)) {
@@ -48,14 +50,14 @@ const loadRecipe = async ({
     Steps: recipe.FancyfullSteps[fancy] as Step[],
     description: recipe.FancyfullDescription[fancy] as string,
   };
-  return { recipe: reducedRecipe, fancy };
+  return { recipe: reducedRecipe, fancy, card };
 };
 
 const RecipeLoader = {
   start: () => {
-    EventBUS.registerEventListener("loadRecipe", {}, async (e) =>
-      EventBUS.fireEvent("buildRecipe", await loadRecipe(e))
-    );
+    EventBUS.registerEventListener("loadRecipe", {}, async (e) => {
+      EventBUS.fireEvent("buildRecipe", await loadRecipe(e));
+    });
   },
 };
 
