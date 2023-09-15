@@ -1,0 +1,61 @@
+Champignonbratlinge mit Pflaumenkompott
+15.09.2023
+recipes/essen.png
+good
+normal:
+    120 min
+    mittel
+    Zutaten:
+        500 g * Champignons * braun
+        2 * Schalotten
+        3 * Knoblauchzehen
+        1/2 TL * Majoran
+        1 TL * Paprikapulver * edelsüß
+        3/2 EL * Sojasoße
+        1 Dose * Kidneybohnen
+        50 g * Haferflocken
+        1 * Ei
+        7 * Pflaumen
+        50 g * Zucker
+        1 TL * Zimt
+        2 Prisen * Muskatnuss
+        1/2 TL * Kardamon
+    Pilze:
+        500 g * Champignons * braun
+        2 * Schalotten
+        3 * Knoblauchzehen
+        1 EL * Butter
+        1/2 TL * Majoran
+        1 TL * Paprikapulver * edelsüß
+        3/2 EL * Sojasoße
+
+        Die Champignons putzen und klein schneiden, ca. 1-2 mm große Würfel. In eine trockenne Pfanne geben, etwas salzen und bei mittelhoher Hitze braten, bis die Flüssigkeit verkocht ist. Dabei gelegentlich rühren.
+
+        Währenddessen die Schalotten und den Knoblauch klein schneiden. Wenn die Pilze keine Flüssigkeit mehr haben, die Butter mit Schalotten und Knoblauch dazu geben. Unter rühren ca. 3 Minuten weiterbraten.
+
+        Die Temperatur runterstellen und mit der Sojasoße ablöschen. Majoran und Paprikapulver dazu geben. Unter rühren ca. 3 Minuten reduzieren.
+
+        Die Pilze in eine Schüssel zum abkühlen geben und mit Salz und Pfeffer abschmecken.
+    Pflaumenkompott:
+        7 * Pflaumen
+        50 g * Zucker
+        1 TL * Zimt
+        2 Prisen * Muskatnuss
+        1/2 TL * Kardamon
+
+        Die Pflaumen in ca. 1 cm große Würfel schneiden.
+        Tipp: Die Pflaumen am Kern klein schneiden, danach lassen sich die kleinen Stücke einfach durch drehen abtrennen.
+
+        Die klein geschnittenen Pflaumen mit den restlichen Zutaten in einen Topf geben und für mindestens 30 Minuten ziehen lassen.
+
+        Anschließend das Gemisch bei mittlere Hitze und gelegentlichem Umrühren einkochen, bis die Pflaumen zerfallen.
+    Bratlinge:
+        * Pilze * abgekühlt
+        1 Dose * Kidneybohnen
+        50 g * Haferflocken
+        1 * Ei
+
+        Alles in einen Mixer geben und zu einer homogenen Masse mixen. Alternativ erst die Kidneybohnen mit einem Kartoffelstampfer zerstampfen. Dann Pilze und Haferflocken dazu stampfen und schließlich das Ei einrühren.
+
+        Bratlinge formen und in Öl von beiden Seiten knusprig braten. Mit dem Pflaumenkompott servieren.
+    Einfach süchtigmachend. Der Kontrast zwischen der salzigen Umamibombe der Bratlinge und der einladend süßen Wärme des Pflaumenkompotts ist wunderbar.

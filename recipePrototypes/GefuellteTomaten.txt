@@ -1,0 +1,37 @@
+Gefüllte Tomaten
+15.09.2023
+recipes/essen.png
+divine
+normal:
+    60 min
+    einfach
+    Zutaten:
+        5 * Tomaten
+        2 * Eier
+        1 TL * Oregane
+        1 TL * Rinderbrühe * pulver
+        80 g * Feta
+    Tomaten aushölen:
+        5 * Tomaten
+
+        Schneide eine 1-2 mm dicke Scheibe von der Tomate ab, so dass das Innere frei liegt. Höle die Tomate mit einem kleinen Löffel durch das Loch aus. Sammel dabei alle Innereien in einer Schüssel und achte darauf, die Tomate nicht zu beschädigen.
+
+        Trenne den Saft von dem Rest der Tomateninnereien. Sie werden nicht weiter benötigt.
+    Füllung:
+        * Tomatensaft * von vorher
+        2 * Eier
+        1 TL * Oregane
+        1 TL * Rinderbrühe * pulver
+
+        Mische alles zusammen. Falls es zu dickflüssig ist oder zu wenig ist, mit etwas Wasser aufgießen.
+    Zusammenbau:
+        5 * Tomaten * ausgehöhlt
+        * Füllung
+        80 g * Feta
+
+        Platziere die Tomaten so in einer Auflaufform, dass sie nicht umkippen und das Loch nach oben zeigt.
+        
+        Verteile die Füllung gleichmäßig auf die Tomaten. Idealerweise sollten sie randvoll sein.
+
+        Schneiden den Feta in dünne Scheiben und platziere sie auf den Tomatenöffnungen. Backe das ganze bei 200 °C Umluft für 40 Minuten. 
+    Würzig, cremig, fruchtig, sauer, dieses einfache Rezept hat einfach alles. 

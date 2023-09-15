@@ -12,7 +12,7 @@ fast:
         1 TL * Honig
     Cockttail:
         1 Schuß * Cointreau
-        1 Schuß * Bombai Bramble
+        1 Schuß * Bombai Bramble * Gin
         1 * Zitrone
         1 TL * Honig
 
