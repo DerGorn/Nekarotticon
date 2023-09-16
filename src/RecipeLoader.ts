@@ -17,7 +17,7 @@ const loadRecipe = async ({
   name: string;
   fancyness?: Fancyness;
   card: boolean;
-}): Promise<{ recipe: Recipe; fancy: Fancy; card: boolean }> => {
+}): Promise<{ recipe: Recipe; fancy: Fancy; card: boolean; name: string }> => {
   if (typeof fancyness === "string") {
     fancyness = Number(fancyness);
     if (isNaN(fancyness)) {
@@ -50,7 +50,7 @@ const loadRecipe = async ({
     Steps: recipe.FancyfullSteps[fancy] as Step[],
     description: recipe.FancyfullDescription[fancy] as string,
   };
-  return { recipe: reducedRecipe, fancy, card };
+  return { recipe: reducedRecipe, fancy, card, name };
 };
 
 const RecipeLoader = {

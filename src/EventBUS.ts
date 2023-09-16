@@ -37,7 +37,7 @@ const registeredNamedFunctions: {
  */
 type EventDefinitions = {
   loadRecipe: { name: string; fancyness?: Fancyness; card: boolean };
-  buildRecipe: { recipe: Recipe; fancy: Fancy; card: boolean };
+  buildRecipe: { recipe: Recipe; fancy: Fancy; card: boolean; name: string };
   buildHome: {};
 };
 

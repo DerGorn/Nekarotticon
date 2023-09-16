@@ -1,6 +1,6 @@
 Bohnensalat
 07.09.2023
-recipes/.png
+recipes/essen.png
 good
 fast:
     15 min

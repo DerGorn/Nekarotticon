@@ -1,7 +1,7 @@
 import { createElement } from "./DOM.js";
 import EventBUS from "./EventBUS.js";
 import { availableRecipes } from "./Router.js";
-import { Difficulties, RatingColorMap, ScrollHeight, buildBaseSite, } from "./constants.js";
+import { Difficulties, Fancyness, RatingColorMap, ScrollHeight, buildBaseSite, } from "./constants.js";
 const buildRecipeCard = (image, MetaData, fancy) => {
     const ratingColor = RatingColorMap[MetaData.rating];
     const header = createElement("div", {}, "recipeHeader", "recipeCard");
@@ -12,10 +12,6 @@ const buildRecipeCard = (image, MetaData, fancy) => {
     const recipeImage = createElement("img", { style: { borderColor: ratingColor } }, "recipeImage");
     recipeImage.src = `images/${image}`;
     recipeImage.addEventListener("load", ScrollHeight);
-    recipeImage.addEventListener("load", () => {
-        header.style.height = `${recipeImage.scrollHeight}px`;
-        header.style.width = `${recipeImage.scrollWidth}px`;
-    });
     const metaData = createElement("div", {}, "recipeMetaData");
     const difficulty = createElement("div", { style: { fontWeight: "bold" } }, "text", "difficultyHolder");
     const d = Number(Difficulties[MetaData.difficulty]);
@@ -43,13 +39,20 @@ const buildRecipeCard = (image, MetaData, fancy) => {
 const buildRecentView = (amount = 25) => {
     const recent = createElement("div", {}, "recentView");
     let start = availableRecipes.length - amount;
+    const recipeSlice = availableRecipes.slice(start > 0 ? start : 0);
+    const cards = Array(recipeSlice.length);
     EventBUS.registerEventListener("buildRecipe", { name: "cardBuilder" }, (e) => {
-        e.card &&
-            recent.append(buildRecipeCard(e.recipe.image, e.recipe.MetaData, e.fancy));
+        if (!e.card)
+            return;
+        const card = buildRecipeCard(e.recipe.image, e.recipe.MetaData, e.fancy);
+        card.addEventListener("click", () => (window.location.search = `name=${e.name}&fancyness=${Number(Fancyness[e.fancy])}`));
+        cards[availableRecipes.length - 1 - availableRecipes.indexOf(e.name)] =
+            card;
     });
-    Promise.all(availableRecipes.slice(start > 0 ? start : 0).map(async (name) => {
+    Promise.all(recipeSlice.map(async (name) => {
         await EventBUS.fireEvent("loadRecipe", { name: name, card: true });
     })).then(() => {
+        recent.append(...cards);
         EventBUS.removeEventListener("buildRecipe", "cardBuilder");
     });
     return recent;

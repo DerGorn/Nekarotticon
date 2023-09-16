@@ -4,6 +4,7 @@ import { availableRecipes } from "./Router.js";
 import {
   Difficulties,
   Fancy,
+  Fancyness,
   MetaData,
   RatingColorMap,
   ScrollHeight,
@@ -37,10 +38,10 @@ const buildRecipeCard = (image: string, MetaData: MetaData, fancy: Fancy) => {
   );
   recipeImage.src = `images/${image}`;
   recipeImage.addEventListener("load", ScrollHeight);
-  recipeImage.addEventListener("load", () => {
-    header.style.height = `${recipeImage.scrollHeight}px`;
-    header.style.width = `${recipeImage.scrollWidth}px`;
-  });
+  // recipeImage.addEventListener("load", () => {
+  //   header.style.height = `${recipeImage.scrollHeight}px`;
+  //   header.style.width = `${recipeImage.scrollWidth}px`;
+  // });
 
   const metaData = createElement("div", {}, "recipeMetaData");
 
@@ -87,21 +88,32 @@ const buildRecentView = (amount = 25) => {
   const recent = createElement("div", {}, "recentView");
 
   let start = availableRecipes.length - amount;
+  const recipeSlice = availableRecipes.slice(start > 0 ? start : 0);
+  // const cards: { [key: string]: HTMLDivElement } = {};
+  const cards = Array(recipeSlice.length);
   EventBUS.registerEventListener(
     "buildRecipe",
     { name: "cardBuilder" },
     (e) => {
-      e.card &&
-        recent.append(
-          buildRecipeCard(e.recipe.image, e.recipe.MetaData, e.fancy)
-        );
+      if (!e.card) return;
+      const card = buildRecipeCard(e.recipe.image, e.recipe.MetaData, e.fancy);
+      card.addEventListener(
+        "click",
+        () =>
+          (window.location.search = `name=${e.name}&fancyness=${Number(
+            Fancyness[e.fancy]
+          )}`)
+      );
+      cards[availableRecipes.length - 1 - availableRecipes.indexOf(e.name)] =
+        card;
     }
   );
   Promise.all(
-    availableRecipes.slice(start > 0 ? start : 0).map(async (name) => {
+    recipeSlice.map(async (name) => {
       await EventBUS.fireEvent("loadRecipe", { name: name, card: true });
     })
   ).then(() => {
+    recent.append(...cards);
     EventBUS.removeEventListener("buildRecipe", "cardBuilder");
   });
 

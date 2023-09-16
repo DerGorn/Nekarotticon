@@ -103,6 +103,7 @@ body {
 .recipeCard.recipeHeader {
   position: relative;
   width: 20vw;
+  height: 20vw;
   border: unset;
   justify-content: space-between;
   box-sizing: border-box;

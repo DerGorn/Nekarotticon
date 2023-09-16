@@ -1,6 +1,6 @@
 "title"
 TT.MM.JJJJ
-recipes/.png
+recipes/essen.png
 experiment | adventure | good | divine
 fast | normal | extra:
     0 min

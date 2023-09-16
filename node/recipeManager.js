@@ -11,7 +11,12 @@ const recipePath = path.join(__dirname, "../recipes");
 const writeAvailableRecipes = () => {
   const availableRecipes = [];
 
-  const files = fs.readdirSync(recipePath);
+  const files = fs.readdirSync(recipePath).sort((f, g) => {
+    return (
+      fs.statSync(`${recipePath}/${f}`).mtimeMs -
+      fs.statSync(`${recipePath}/${g}`).mtimeMs
+    );
+  });
   files.forEach(function (file) {
     if (specialFiles.includes(file)) return;
     availableRecipes.push(file.slice(0, -5));

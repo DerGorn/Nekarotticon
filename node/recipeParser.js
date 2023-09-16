@@ -7,7 +7,13 @@ const recipePath = path.join(__dirname, "../recipes");
 
 const files = fs
   .readdirSync(protoRecipePath)
-  .filter((f) => !specialFiles.includes(f));
+  .filter((f) => !specialFiles.includes(f))
+  .sort((f, g) => {
+    return (
+      fs.statSync(`${protoRecipePath}/${f}`).mtimeMs -
+      fs.statSync(`${protoRecipePath}/${g}`).mtimeMs
+    );
+  });
 
 files.forEach((f) => {
   const file = `${protoRecipePath}/${f}`;
@@ -50,7 +56,7 @@ files.forEach((f) => {
           curDepth = 0;
           curPhase = "time";
           curFancyLevel = line.slice(0, -1);
-          console.log("new Fancy Level: ", curFancyLevel);
+          // console.log("new Fancy Level: ", curFancyLevel);
           recipe.MetaData.fancyLevels.push(curFancyLevel);
           recipe.MetaData.FancyfullTimeNeeded[curFancyLevel] = "";
           recipe.MetaData.FancyfullDifficulty[curFancyLevel] = "";
@@ -96,7 +102,7 @@ files.forEach((f) => {
                 if (curStep !== null)
                   recipe.FancyfullSteps[curFancyLevel].push(curStep);
                 curStep = { title: line, ingredients: [], description: "" };
-                console.log("new Step: ", line);
+                // console.log("new Step: ", line);
                 curPhase = "ingredients";
               }
               break;

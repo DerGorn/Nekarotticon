@@ -29,7 +29,7 @@ const loadRecipe = async ({ name, fancyness, card, }) => {
         Steps: recipe.FancyfullSteps[fancy],
         description: recipe.FancyfullDescription[fancy],
     };
-    return { recipe: reducedRecipe, fancy, card };
+    return { recipe: reducedRecipe, fancy, card, name };
 };
 const RecipeLoader = {
     start: () => {

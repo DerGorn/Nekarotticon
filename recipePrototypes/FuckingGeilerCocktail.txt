@@ -1,6 +1,6 @@
 Cocktail der Wahrheit
 09.09.2023
-recipes/.png
+recipes/essen.png
 divine
 fast:
     2 min
