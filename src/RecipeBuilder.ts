@@ -96,7 +96,7 @@ const buildHeader = (image: string, MetaData: MetaData, fancy: Fancy) => {
     "text"
   );
   const fancynessImage = createElement("img", {}, "fancyImage");
-  fancynessImage.src = `images/Fancy/${fancy}.png`;
+  fancynessImage.src = `images/fancy/${fancy}.png`;
   fancyness.append(fancynessImage);
   metaData.append(time, difficulty, fancyness);
   header.append(titleHolder, recipeImage, metaData);
